@@ -1,0 +1,33 @@
+@media (min-width: 768px){
+    .container {
+    background-position: 88% 10% !important;
+    background-size: 48% !important;
+
+    }
+    .text {
+        background-position: 23% 17% !important;
+        background-size: 25% !important;
+        p:first-child {
+            font-size: 32px !important;
+            width: 118% !important;
+            text-align: left !important;
+        }
+        p:last-child {
+            text-align: left !important;
+            span {
+            display: inline-block !important;
+            }
+        }
+
+    }
+    .image{
+        img{
+            width: 75% !important;
+            margin-left: 0 !important;
+        }
+    }
+    .arrows {
+        top: 471px !important;
+        right: 546px !important;
+    }
+}
